@@ -12,11 +12,13 @@ public class CepApi {
 		return instancia;
 	}
 	
+	//Modificado para a cidade do Recife
 	public String recuperarCidade(String cep) {
-		return "Araraquara";
+		return "Recife";
 	}
 	
+	//Modificado para o estado de PE
 	public String recuperarEstado(String cep) {
-		return "SP";
+		return "PE";
 	}
 }
